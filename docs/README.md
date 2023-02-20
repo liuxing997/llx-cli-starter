@@ -23,7 +23,7 @@ npm install llx-cli -g
 ### Create Project
 
 ```shell
-llx create <projectName>
+llx create <ProjectName>
 ```
 To create a project called 'demo', use the command:
 ```shell

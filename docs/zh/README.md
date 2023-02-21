@@ -35,7 +35,7 @@ llx create demo
 
 2023.02.17 新增vite-vue3-ts-vueRouter-pinia-arcoDesign 和 vite-vue3-ts-vueRouter-pinia-Naive UI 项目。
 
-2023.02.21 新增vite-vue3-ts-vueRouter-pinia-viewDesign 项目
+2023.02.21 新增vite-vue3-ts-vueRouter-pinia-viewDesign 项目。
 
 ### 联系作者
 ---

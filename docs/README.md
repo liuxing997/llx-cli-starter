@@ -36,6 +36,8 @@ After executing the command, you are prompted to choose to create a vite-vue3-ts
 
 2023.02.17 Added vite-vue3-ts-vueRouter-pinia-arcoDesign and vite-vue3-ts-vueRouter-pinia-Naive UI projects.
 
+2023.02.21 New vite-vue3-ts-vueRouter-pinia-viewDesign project.
+
 ### Contact the author
 ---
 Thanks for using llx-cli. Development by liuxing.

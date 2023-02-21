@@ -1,4 +1,6 @@
 import { defineUserConfig, defaultTheme } from "vuepress";
+// import { docsearchPlugin } from '@vuepress/plugin-docsearch';
+import { searchPlugin } from "@vuepress/plugin-search";
 
 export default defineUserConfig({
   locales: {
@@ -13,7 +15,24 @@ export default defineUserConfig({
       description: "快速创建vue.js模板项目",
     },
   },
-
+  plugins: [
+    searchPlugin({
+      // 配置项
+      locales: {
+        "/": {
+          placeholder: "Search",
+        },
+        "/zh/": {
+          placeholder: "搜索",
+        },
+      },
+    }),
+    // docsearchPlugin(
+    //   {
+    //   // 配置项
+    // }
+    // ),
+  ],
   theme: defaultTheme({
     logo: "/images/logo.png",
     repo: "liuxing997/llx-cli-starter",

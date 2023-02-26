@@ -34,7 +34,7 @@ export default defineUserConfig({
     // ),
   ],
   theme: defaultTheme({
-    logo: "/images/logo.png",
+    logo: "/images/logo.svg",
     repo: "liuxing997/llx-cli-starter",
     docsDir: "docs",
 
